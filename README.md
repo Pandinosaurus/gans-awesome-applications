@@ -313,6 +313,7 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 | HiFi-GAN: GANs for Efficient and High Fidelity Speech Synthesis | NeurIPS | 2020 | [📄](https://arxiv.org/abs/2010.05646) [💻](https://github.com/jik876/hifi-gan) |
 | BigVGAN: A Universal Neural Vocoder with Large-Scale Training (v2 2024) | ICLR | 2023 | [📄](https://arxiv.org/abs/2206.04658) [💻](https://github.com/NVIDIA/BigVGAN) |
 | Vocos: Closing the Gap between Time-domain and Fourier-based Neural Vocoders | ICLR | 2024 | [📄](https://arxiv.org/abs/2306.00814) [💻](https://github.com/gemelo-ai/vocos) |
+| BemaGANv2: Discriminator Combination Strategies for GAN-based Vocoders in Long-Term Audio | arXiv | 2025 | [📄](https://arxiv.org/abs/2506.09487) [💻](https://github.com/dinhoitt/BemaGANv2) |
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
