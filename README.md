@@ -21,12 +21,6 @@
 > short list at the top. Pure theory / loss-function papers are out of scope; diffusion-only work is
 > out of scope (GAN+diffusion hybrids are fine).
 
-📌 **News**
-- **2026-06** — Major refresh: added ~30 landmark works from 2019–2026 (StyleGAN2/3, GigaGAN,
-  DragGAN, EG3D, Real-ESRGAN, LaMa, HiFi-GAN, R3GAN, …) and new categories (GAN Inversion, Face
-  Stylization, 3D-aware Synthesis, Talking Head, Virtual Try-On, Audio, …). Added license, badges,
-  contributing guide, and navigation.
-
 🏷️ **Legend** — each entry links to what exists, in this order:
 `[[paper]]` · `[[github]]` code · `[[project]]` project page · `[[demo]]`/`[[colab]]` · `[[video]]`/`[[youtube]]` · `[[blog]]`.
 
@@ -55,6 +49,7 @@
     + [Interactive Image generation](#interactive-image-generation)
     + [GAN Inversion and Latent Space Editing](#gan-inversion-and-latent-space-editing)
     + [Text2Image (text to image)](#text2image-text-to-image)
+    + [Adversarial Diffusion Distillation (GAN-hybrid)](#adversarial-diffusion-distillation-gan-hybrid)
     + [3D Object generation](#3d-object-generation)
     + [3D-aware Image Synthesis](#3d-aware-image-synthesis)
     + [Image Editing](#image-editing)
@@ -135,6 +130,13 @@
 + AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks (CVPR 2018), [[paper]](https://arxiv.org/abs/1711.10485), [[github]](https://github.com/taoxugit/AttnGAN)
 + GigaGAN: Scaling up GANs for Text-to-Image Synthesis (CVPR 2023), [[paper]](https://arxiv.org/abs/2303.05511)
 + StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis (ICML 2023), [[paper]](https://arxiv.org/abs/2301.09515), [[github]](https://github.com/autonomousvision/stylegan-t)
+
+<sub><a href="#contents">↑ back to Contents</a></sub>
+
+### Adversarial Diffusion Distillation (GAN-hybrid)
+_GANs strike back in 2024–2026: adversarial objectives distill slow diffusion samplers into one/few-step generators._
++ UFOGen: You Forward Once Large Scale Text-to-Image Generation via Diffusion GANs (CVPR 2024), [[paper]](https://arxiv.org/abs/2311.09257)
++ Improved Distribution Matching Distillation for Fast Image Synthesis (DMD2) (NeurIPS 2024), [[paper]](https://arxiv.org/abs/2405.14867), [[github]](https://github.com/tianweiy/DMD2)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
@@ -266,6 +268,8 @@
 ### Audio and Speech Synthesis
 + Adversarial Audio Synthesis (WaveGAN) (ICLR 2019), [[paper]](https://arxiv.org/abs/1802.04208), [[github]](https://github.com/chrisdonahue/wavegan)
 + HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis (NeurIPS 2020), [[paper]](https://arxiv.org/abs/2010.05646), [[github]](https://github.com/jik876/hifi-gan)
++ BigVGAN: A Universal Neural Vocoder with Large-Scale Training (ICLR 2023, v2 2024), [[paper]](https://arxiv.org/abs/2206.04658), [[github]](https://github.com/NVIDIA/BigVGAN)
++ Vocos: Closing the Gap between Time-domain and Fourier-based Neural Vocoders (ICLR 2024), [[paper]](https://arxiv.org/abs/2306.00814), [[github]](https://github.com/gemelo-ai/vocos)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
