@@ -65,7 +65,6 @@
     + [Adversarial Examples (Defense vs Attack)](#adversarial-examples-defense-vs-attack)
     + [Visual Saliency Prediction (attention prediction)](#visual-saliency-prediction-attention-prediction)
     + [Object Detection/Recognition](#object-detectionrecognition)
-    + [Robotics](#robotics)
     + [Video (generation/prediction)](#video-generationprediction)
     + [Audio and Speech Synthesis](#audio-and-speech-synthesis)
     + [Text and Sequence Generation](#text-and-sequence-generation)
@@ -79,6 +78,7 @@
     + [Human Pose Estimation](#human-pose-estimation-1)
     + [3D Object generation](#3d-object-generation-1)
 + [GAN tutorials with easy and simple example code for starters](#gan-tutorials-with-easy-and-simple-example-code-for-starters)
++ [Awesome GAN GitHub Projects and Tools](#awesome-gan-github-projects-and-tools)
 + [Implementations of various types of GANs collection](#implementations-of-various-types-of-gans-collection)
 + [Trendy AI-application Articles](#trendy-ai-application-articles)
 
@@ -97,10 +97,7 @@
 
 ### Anime character generation
 + Towards the Automatic Anime Characters Creation with Generative Adversarial Networks (2017), [[paper]](https://arxiv.org/pdf/1708.05509)
-+ [Project] A simple PyTorch Implementation of Generative Adversarial Networks, focusing on anime face drawing, [[github]](https://github.com/jayleicn/animeGAN)
-+ [Project] A simple, clean TensorFlow implementation of Generative Adversarial Networks with a focus on modeling illustrations, [[github]](https://github.com/tdrussell/IllustrationGAN)
-+ [Project] Keras-GAN-Animeface-Character, [[github]](https://github.com/forcecore/Keras-GAN-Animeface-Character)
-+ [Project] A DCGAN to generate anime faces using custom mined dataset, [[github]](https://github.com/pavitrakumar78/Anime-Face-GAN-Keras)
++ AnimeGANv2: Photo to Anime Style Transfer (2021), [[github]](https://github.com/TachibanaYoshino/AnimeGANv2)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
@@ -205,7 +202,6 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 + Context Encoders: Feature Learning by Inpainting (CVPR 2016), [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Pathak_Context_Encoders_Feature_CVPR_2016_paper.pdf), [[github]](https://github.com/pathak22/context-encoder)
 + Semantic Image Inpainting with Perceptual and Contextual Losses (CVPR 2017), [[paper]](https://arxiv.org/abs/1607.07539), [[github]](https://github.com/bamos/dcgan-completion.tensorflow)
 + SEMI-SUPERVISED LEARNING WITH CONTEXT-CONDITIONAL GENERATIVE ADVERSARIAL NETWORKS (2016), [[paper]](https://arxiv.org/pdf/1611.06430v1.pdf)
-+ Generative Face Completion (CVPR 2017), [[paper]](https://drive.google.com/file/d/0B8_MZ8a8aoSeenVrYkpCdnFRVms/edit), [[github]](https://github.com/Yijunmaverick/GenerativeFaceCompletion)
 + Free-Form Image Inpainting with Gated Convolution (DeepFill v2) (ICCV 2019), [[paper]](https://arxiv.org/abs/1806.03589), [[github]](https://github.com/JiahuiYu/generative_inpainting)
 + Resolution-robust Large Mask Inpainting with Fourier Convolutions (LaMa) (WACV 2022), [[paper]](https://arxiv.org/abs/2109.07161), [[github]](https://github.com/advimman/lama)
 
@@ -218,7 +214,7 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 
 ### Super-resolution
 + Image super-resolution through deep learning (srez) (2016), [[github]](https://github.com/david-gpu/srez)
-+ Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (SRGAN) (CVPR 2017), [[paper]](https://arxiv.org/abs/1609.04802), [[github]](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)
++ Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (SRGAN) (CVPR 2017), [[paper]](https://arxiv.org/abs/1609.04802), [[github]](https://github.com/tensorlayer/SRGAN)
 + High-Quality Face Image Super-Resolution Using Conditional Generative Adversarial Networks (2017), [[paper]](https://arxiv.org/pdf/1707.00737.pdf)
 + Analyzing Perception-Distortion Tradeoff using Enhanced Perceptual Super-resolution Network (EPSR) (ECCVW 2018), [[paper]](https://arxiv.org/pdf/1811.00344.pdf), [[github]](https://github.com/subeeshvasu/2018_subeesh_epsr_eccvw)
 + ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks (ECCVW 2018), [[paper]](https://arxiv.org/abs/1809.00219), [[github]](https://github.com/xinntao/ESRGAN)
@@ -239,7 +235,6 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 ### Adversarial Examples (Defense vs Attack)
 + SafetyNet: Detecting and Rejecting Adversarial Examples Robustly (ICCV 2017), [[paper]](https://arxiv.org/abs/1704.00103)
 + ADVERSARIAL EXAMPLES FOR GENERATIVE MODELS (2017), [[paper]](https://arxiv.org/pdf/1702.06832.pdf)
-+ Adversarial Examples Generation and Defense Based on Generative Adversarial Network (2016), [[paper]](http://cs229.stanford.edu/proj2016/report/LiuXia-AdversarialExamplesGenerationAndDefenseBasedOnGenerativeAdversarialNetwork-report.pdf)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
@@ -251,11 +246,6 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 ### Object Detection/Recognition
 + Perceptual Generative Adversarial Networks for Small Object Detection (CVPR 2017), [[paper]](https://arxiv.org/pdf/1706.05274)
 + Adversarial Generation of Training Examples for Vehicle License Plate Recognition (2017), [[paper]](https://arxiv.org/pdf/1707.03124.pdf)
-
-<sub><a href="#contents">↑ back to Contents</a></sub>
-
-### Robotics
-+ Unsupervised Pixel–Level Domain Adaptation with Generative Adversarial Networks (PixelDA) (CVPR 2017), [[paper]](https://arxiv.org/pdf/1612.05424.pdf), [[github]](https://github.com/rhythm92/Unsupervised-Pixel-Level-Domain-Adaptation-with-GAN)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
@@ -290,7 +280,6 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 
 ### Others
 + (Physics) Learning Particle Physics by Example: Location-Aware Generative Adversarial Networks for Physics Synthesis (2017), [[paper]](https://arxiv.org/pdf/1701.05927.pdf), [[github]](https://github.com/hep-lbdl/adversarial-jets)
-+ (Games) Style Transfer Generative Adversarial Networks: Learning to Play Chess Differently (2017), [[paper]](https://openreview.net/pdf?id=HkpbnufYe), [[github]](https://github.com/2014mchidamb/AdversarialChess)
 + (General) Spectral Normalization for Generative Adversarial Networks (ICLR 2018), [[paper]](https://openreview.net/pdf?id=B1QRgziT-), [[github]](https://github.com/minhnhat93/tf-SNDCGAN)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
@@ -337,11 +326,32 @@ _GANs strike back in 2024–2026: adversarial objectives distill slow diffusion 
 
 ----
 
+## Awesome GAN GitHub Projects and Tools
+Genuinely awesome, widely-used GitHub repos built on GANs — usable code and tools, not just papers.
+
+### Real-world applications and tools
++ TencentARC/GFPGAN (37k+ ⭐) — practical real-world face restoration, [[github]](https://github.com/TencentARC/GFPGAN)
++ jantic/DeOldify (18k+ ⭐, archived) — colorize and restore old black-and-white photos and video, [[github]](https://github.com/jantic/DeOldify)
+
+### Foundational model code (official / canonical)
++ junyanz/pytorch-CycleGAN-and-pix2pix (25k+ ⭐) — official CycleGAN + pix2pix in PyTorch, [[github]](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
++ NVlabs/stylegan (14k+ ⭐) — official StyleGAN, [[github]](https://github.com/NVlabs/stylegan)
++ NVlabs/SPADE (7k+ ⭐) — semantic image synthesis, a.k.a. GauGAN, [[github]](https://github.com/NVlabs/SPADE)
++ NVIDIA/pix2pixHD (6k+ ⭐) — high-resolution image synthesis and manipulation, [[github]](https://github.com/NVIDIA/pix2pixHD)
++ ajbrock/BigGAN-PyTorch (2k+ ⭐) — the author's PyTorch BigGAN, [[github]](https://github.com/ajbrock/BigGAN-PyTorch)
+
+<sub><a href="#contents">↑ back to Contents</a></sub>
+
+----
+
 ## Implementations of various types of GANs collection
 + [nashory/gans-collections.torch](https://github.com/nashory/gans-collection.torch), torch7
 + [hwalsuklee/tensorflow-generative-model-collections](https://github.com/hwalsuklee/tensorflow-generative-model-collections), tensorflow
 + [wiseodd/generative-models](https://github.com/wiseodd/generative-models), both pytorch and tensorflow
 + [aboev/arae-tf](https://github.com/aboev/arae-tf), tensorflow
++ [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN), pytorch — implementations of dozens of GANs (17k+ ⭐)
++ [eriklindernoren/Keras-GAN](https://github.com/eriklindernoren/Keras-GAN), keras — implementations of many GANs (9k+ ⭐)
++ [NVlabs/imaginaire](https://github.com/NVlabs/imaginaire), pytorch — NVIDIA library of image & video synthesis GANs (4k+ ⭐)
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
