@@ -1,0 +1,9 @@
+# Internal working docs / context — never commit
+internal_docs/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
