@@ -144,12 +144,15 @@
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
 ### ⚡ Adversarial Diffusion Distillation (GAN-hybrid)
-_GANs strike back in 2024–2026: adversarial objectives distill slow diffusion samplers into one/few-step generators._
+_GANs strike back in 2024–2026: adversarial objectives distill slow diffusion samplers into one/few-step image **and video** generators — where GANs are most alive in 2025–2026._
 
 | Title | Venue | Year | Links |
 |:--|:--:|:--:|:--|
 | UFOGen: You Forward Once Large Scale Text-to-Image Generation via Diffusion GANs | CVPR | 2024 | [📄](https://arxiv.org/abs/2311.09257) |
 | Improved Distribution Matching Distillation for Fast Image Synthesis (DMD2) | NeurIPS | 2024 | [📄](https://arxiv.org/abs/2405.14867) [💻](https://github.com/tianweiy/DMD2) |
+| SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation | arXiv | 2025 | [📄](https://arxiv.org/abs/2503.09641) [💻](https://github.com/NVlabs/Sana) |
+| Diffusion Adversarial Post-Training for One-Step Video Generation (Seaweed-APT) | ICML | 2025 | [📄](https://arxiv.org/abs/2501.08316) [🌐](https://seaweed-apt.com/) |
+| Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation (Seaweed-APT2) | NeurIPS | 2025 | [📄](https://arxiv.org/abs/2506.09350) [🌐](https://seaweed-apt.com/2) |
 
 <sub><a href="#contents">↑ back to Contents</a></sub>
 
